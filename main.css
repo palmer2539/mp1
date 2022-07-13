@@ -5,19 +5,91 @@ html{
     height: 100%;
 }
 
-h1 {
+.h1page0{
     color:rgb(158, 58, 14);
-    margin-left: 65%;
+    text-align: right;
+    margin-right: 5%;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 60px;
-
 }
-button{
+
+.h2page0{
+    color: rgb(70, 143, 233);
+}
+
+.h3page0{
+  text-align: center;
+  color: orangered;
+}
+
+.h1ts{
+    color:rgb(158, 58, 14);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 60px;
+}
+
+.h2ts{
+    text-align: center;
+    color: orchid;
+}
+
+.h3ts{
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 38%;
+}
+    
+.h1bible{
+    text-align: center;
+}
+
+.h1nt{
+    text-align: center;
+}
+.h1ot{
+    text-align: center;
+}
+
+#enterButton{
     border-width: 5px;
     border-radius: 10%;
     background-color:rgb(245, 194, 128) ;
     color:rgb(158, 58, 14);
     cursor: pointer;
+    margin-left:47%;
 }
 
+#sharedNav{
+    background-color: rgb(27, 161, 90);
+    width:300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+#sharedNav a {
+    color: #b71496;
+    text-align: center;
+    font-size: 25px;
+  }
+
+#trivia{
+    text-align: center;
+}
+  
+#oldtest{
+    width: 300px;
+}
+
+#newtest{
+    width: 300px;
+}
+
+#bible{
+    width: 300px;
+}

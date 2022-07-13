@@ -1,0 +1,1 @@
+Welcome to Biblical Trivia! WHere you can test your knowledge of the history of the Bible and the contents of it too!s
