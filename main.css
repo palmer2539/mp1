@@ -6,7 +6,7 @@ html{
 }
 
 .h1page0{
-    color:rgb(158, 58, 14);
+    color:rgb(14, 158, 38);
     text-align: right;
     margin-right: 5%;
     margin-top: 0;
@@ -20,7 +20,7 @@ html{
 
 .h3page0{
   text-align: center;
-  color: orangered;
+  color: rgb(0, 81, 255);
 }
 
 .h1ts{
@@ -92,4 +92,13 @@ html{
 
 #bible{
     width: 300px;
+}
+
+.h1scores{
+    text-align: center;
+}
+
+.h2scores{
+    margin-left: 250px;
+    text-align: left;
 }
