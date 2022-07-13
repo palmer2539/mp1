@@ -1,0 +1,23 @@
+html{
+    background-image: linear-gradient(to bottom right, rgb(148, 50, 50), rgb(245, 194, 128));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+h1 {
+    color:rgb(158, 58, 14);
+    margin-left: 65%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 60px;
+
+}
+button{
+    border-width: 5px;
+    border-radius: 10%;
+    background-color:rgb(245, 194, 128) ;
+    color:rgb(158, 58, 14);
+    cursor: pointer;
+}
+
