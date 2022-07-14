@@ -5,27 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main.css">
+  
     <title>Trivia Selection</title>
 </head>
 
+
+
 <body>
-    <div id="sharedNav">
-        <a href="/index.html">Home</a>
-        <a class="active" href="/navPages/triviaSelection.html">Trivia Selection</a>
-        <a href="/navPages/scores.html">Scores</a>
+    <div class="mainContainer">
+        <header>
+            <div id="navBanner">
+                <img id="sharedNavBanner" src="/assets/navBanner.png" alt="navBanner">
+                    <div id="sharedNav">
+                        <a href="/index.html">Home</a>
+                        <a class="active" href="/navPages/triviaSelection.html">Trivia Selection</a>
+                        <a href="/navPages/scores.html">Scores</a>
+                </div>
+            </div>
+        </header>
+        <h1 class="h1ts">Trivia Selection</h1>
+        <h2 class="h2ts">Select the trivia you wish to attempt</h2>
+
+        <div id="trivia">
+            <a class= "pageNavWrapper" href="/triviaPages/old_testament.html"> 
+                <img id="oldtest" src="/assets/oldtest.jpeg"/> 
+                <span class= "pageNavTitle">Old Testament</span>
+            </a>
+            <a class= "pageNavWrapper" href="/triviaPages/new_testament.html"> 
+                <img id="newtest" src="/assets/newtest.webp"/> 
+                <span class= "pageNavTitle">New Testament</span>
+            </a>
+            <a class= "pageNavWrapper" href="/triviaPages/history_of_the_bible.html"> 
+                <img id="bible" src="/assets/bible.webp"/> 
+                <span class= "pageNavTitle">History of The Bible</span>
+            </a>
+        </div>
     </div>
-
-   
-    <h1 class="h1ts">Trivia Selection</h1>
-    <h2 class="h2ts">Select the trivia you wish to attempt</h2>
-
-    <div id="trivia">
-        <a href="/triviaPages/old_testament.html"> <img id="oldtest" src="/assets/oldtest.jpeg">Old Testament</a>
-        <a href="/triviaPages/new_testament.html"> <img id="newtest" src="/assets/newtest.webp">New Testament</a>
-        <a href="/triviaPages/history_of_the_bible.html"> <img id="bible" src="/assets/bible.webp">History of The Bible</a>
-    </div>
-
-
-
 </body>
+<script src="/script.js"> </script>
+
 </html>

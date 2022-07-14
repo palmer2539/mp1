@@ -1,8 +1,19 @@
-html{
+*{
+    box-sizing: border-box;
+    font-family: 'papyrus';
+    font-variant: small-caps;
+}
+
+.mainContainer{
     background-image: linear-gradient(to bottom right, rgb(148, 50, 50), rgb(245, 194, 128));
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    overflow: auto;
 }
 
 .h1page0{
@@ -25,8 +36,9 @@ html{
 
 .h1ts{
     color:rgb(158, 58, 14);
+    position: relative;
     text-align: center;
-    margin-top: 0;
+    margin-top: 150px;
     margin-bottom: 0;
     font-size: 60px;
 }
@@ -50,6 +62,7 @@ html{
     text-align: center;
 }
 .h1ot{
+    margin: 40px 0;
     text-align: center;
 }
 
@@ -63,20 +76,32 @@ html{
 }
 
 #sharedNav{
-    background-color: rgb(27, 161, 90);
-    width:300px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
+    /* background-color: aqua; */
+    width:400px;
+    margin-left: 55px;
+    /* margin-top: 75px; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    padding-top: 45px;
+    /* padding-bottom: 5px; */
+    /* border-radius: 5px; */
+    /* position: relative; */
 }
 
 #sharedNav a {
-    color: #b71496;
-    text-align: center;
+    display: inline;
+    color: #a82727;
+    margin: 0px 10px;
+    text-decoration: none;
+    /* align-items: center;    */
     font-size: 25px;
-  }
+    position: relative;
+    /* justify-content: space-between; */
+}
+
+#sharedNav a:hover {
+text-decoration: underline;
+}
 
 #trivia{
     text-align: center;
@@ -101,4 +126,39 @@ html{
 .h2scores{
     margin-left: 250px;
     text-align: left;
+}
+
+#sharedNavBanner{
+    width: 475px;
+    height: 130px;
+    position: absolute;
+    margin: 0px;
+}
+
+.startButton{
+    margin: 0 auto;
+}
+
+.startButtonWrapper{
+    width: 100%;
+    margin: 40px 0;
+    margin-left: 47%;
+}
+
+
+.pageNavWrapper{
+    position: relative;
+    width: 100%;
+    margin: 0 25px;
+}
+
+.pageNavTitle{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    color: rgb(41, 196, 90);
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.4);
+    width: 300px;
 }
