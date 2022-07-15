@@ -61,10 +61,7 @@
 .h1nt{
     text-align: center;
 }
-.h1ot{
-    margin: 40px 0;
-    text-align: center;
-}
+
 
 #enterButton{
     border-width: 5px;
@@ -109,14 +106,17 @@ text-decoration: underline;
   
 #oldtest{
     width: 300px;
+    border-radius: 10px;
 }
 
 #newtest{
     width: 300px;
+    border-radius: 10px;
 }
 
 #bible{
     width: 300px;
+    border-radius: 10px;
 }
 
 .h1scores{
@@ -135,17 +135,6 @@ text-decoration: underline;
     margin: 0px;
 }
 
-.startButton{
-    margin: 0 auto;
-}
-
-.startButtonWrapper{
-    width: 100%;
-    margin: 40px 0;
-    margin-left: 47%;
-}
-
-
 .pageNavWrapper{
     position: relative;
     width: 100%;
@@ -154,15 +143,123 @@ text-decoration: underline;
 
 .pageNavTitle{
     position: absolute;
-    bottom: 5%;
+    bottom: 150%;
     left: 50%;
-    color: rgb(41, 196, 90);
+    color: rgb(0, 255, 60);
     text-decoration: none;
     transform: translate(-50%, -50%);
-    background-color: rgba(0,0,0,0.4);
+    /* background-color: rgba(0,0,0,0.4); */
     width: 300px;
+    font-size: 35px;
+    /* font: bold; */
+    /* font-style: oblique; */
+    /* font-weight: 500; */
+    /* border-radius: 10px; */
 }
 
-.answerButton{
+/* .answerButton{
     margin-left: 47%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+} */
+
+.startingOTPage{
+    width: 100%;
+    /* margin-bottom: -25%; */
+}
+
+.cloudWrapper{
+    width: 70%;
+    height: 70%;
+    max-width: 1000px;
+    max-height: 900px;
+    margin: 10% 15%;
+    /* position: relative; */
+    /* margin-left: 18%; */
+}
+
+.haloWrapper{
+    position: absolute;
+    width: 40%;
+    /* margin-top: -100%; */
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.haloOldTitleWrapper{
+    
+}
+
+.h1ot{
+    text-align: center;
+    justify-content: center;
+    margin: 18% 37%;
+    position:absolute;
+    font-size: 50px;
+    width: 29%;
+    line-height: 70%;
+}
+
+.startButtonWrapper{
+    margin-left: 35%;
+    margin-top: -30%;
+    height: 300px;
+}
+
+.startButton{
+    margin-left: 10%;
+    width: 30%;
+    height: 20%;
+  
+}
+
+/* .image-blurred-edge {
+    background-image: url('http://lorempixel.com/200/200/city/9');
+    width: 70%;
+    /* height: 70%; */
+    max-width: 1000px;
+    /* max-height: 900px; */
+    margin-left: 15%;
+    margin-top: -50%;
+    position: relative;
+    box-shadow: 0 0 8px 8px rgb(79, 47, 47) inset;
+} */
+
+
+.startingNTPage{
+    width: 100%;
+    /* margin-bottom: -25%; */
+}
+
+.tombWrapper{
+    width: 70%;
+    height: 70%;
+    max-width: 1000px;
+    max-height: 900px;
+    margin: 10% 15%;
+    /* position: relative; */
+    /* margin-left: 18%; */
+}
+
+.haloWrapper{
+    position: absolute;
+    width: 40%;
+    /* margin-top: -100%; */
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.haloTitleWrapper{
+    margin-left: 15%;
+}
+
+.h1nt{
+    text-align: center;
+    justify-content: center;
+    margin: 18% 37%;
+    position:absolute;
+    font-size: 50px;
+    width: 29%;
+    line-height: 70%;
 }
