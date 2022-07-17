@@ -164,8 +164,9 @@ text-decoration: underline;
     gap: 10px;
 } */
 
-.startingOTPage{
+.landingPageOT{
     width: 100%;
+    display:block;
     /* margin-bottom: -25%; */
 }
 
@@ -196,7 +197,7 @@ text-decoration: underline;
     justify-content: center;
     margin: 18% 37%;
     position:absolute;
-    font-size: 50px;
+    font-size:50px;
     width: 29%;
     line-height: 70%;
 }
@@ -207,19 +208,18 @@ text-decoration: underline;
     height: 300px;
 }
 
-.startButton{
+.startButtonOT{
     margin-left: 10%;
     width: 30%;
     height: 20%;
-  
 }
 
 /* .image-blurred-edge {
     background-image: url('http://lorempixel.com/200/200/city/9');
     width: 70%;
-    /* height: 70%; */
+    height: 70%;
     max-width: 1000px;
-    /* max-height: 900px; */
+    max-height: 900px;
     margin-left: 15%;
     margin-top: -50%;
     position: relative;
