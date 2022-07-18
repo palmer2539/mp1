@@ -22,13 +22,12 @@ console.log('powered on')
 
 
 
-// function startButtonToggleHS() {
-//     var x = document.getElementsByClassName("landingPageOT");
-//     var y = 'block'
-//      if (y === "block") {
-//         x.style.display = "none";
-//     } else {
-//         x.style.display = "block";
-//     }
-//     console.log('worked')
-// }
+function startButtonToggleHS() {
+    var x = document.getElementsByClassName("landingPageOT");
+    if (x === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    console.log('worked')
+}

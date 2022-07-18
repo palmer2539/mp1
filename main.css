@@ -35,12 +35,15 @@
 }
 
 .h1ts{
-    color:rgb(158, 58, 14);
+    color:rgb(195, 67, 13);
+    text-shadow: 2px 4px 5px;
     position: relative;
+    /* width: 55%; */
     text-align: center;
     margin-top: 150px;
     margin-bottom: 0;
     font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.34);
 }
 
 .h2ts{
@@ -72,7 +75,12 @@
     margin-left:47%;
 }
 
-#sharedNav{
+
+.navBannerWrapper{
+
+}
+
+.sharedNav{
     /* background-color: aqua; */
     width:400px;
     margin-left: 55px;
@@ -85,19 +93,21 @@
     /* position: relative; */
 }
 
-#sharedNav a {
+.sharedNav a {
     display: inline;
     color: #a82727;
     margin: 0px 10px;
     text-decoration: none;
+    text-shadow: 2px 4px 5px;
     /* align-items: center;    */
     font-size: 25px;
     position: relative;
     /* justify-content: space-between; */
 }
 
-#sharedNav a:hover {
+.sharedNav a:hover {
 text-decoration: underline;
+text-shadow: none;
 }
 
 #trivia{
@@ -128,7 +138,7 @@ text-decoration: underline;
     text-align: left;
 }
 
-#sharedNavBanner{
+.sharedNavBanner{
     width: 475px;
     height: 130px;
     position: absolute;
@@ -148,6 +158,7 @@ text-decoration: underline;
     color: rgb(0, 255, 60);
     text-decoration: none;
     transform: translate(-50%, -50%);
+    text-shadow: 2px 4px 5px;
     /* background-color: rgba(0,0,0,0.4); */
     width: 300px;
     font-size: 35px;
@@ -200,6 +211,8 @@ text-decoration: underline;
     font-size:50px;
     width: 29%;
     line-height: 70%;
+    color:#7303b9;
+    text-shadow: 2px 4px 5px;
 }
 
 .startButtonWrapper{
@@ -212,6 +225,26 @@ text-decoration: underline;
     margin-left: 10%;
     width: 30%;
     height: 20%;
+    color: gold;
+    background-color: rgba(0, 147, 180, 0.643);
+    font-size: 150%;
+    text-shadow: 2px 4px 5px;
+    border-radius: 10px;
+    border:none;
+    border-style:outset
+}
+
+.startButtonOT:hover {
+    margin-left: 10%;
+    width: 30%;
+    height: 20%;
+    color: gold;
+    background-color: rgba(0, 147, 180, 1);
+    font-size: 150%;
+    text-shadow: none;
+    border-radius: 10px;
+    border:none;
+    border-style:outset
 }
 
 /* .image-blurred-edge {

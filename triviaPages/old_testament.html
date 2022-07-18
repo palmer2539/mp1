@@ -14,9 +14,9 @@
 <body>
     <div class="mainContainer">
         <header>
-            <div id="navBanner">
-                <img id="sharedNavBanner" src="/assets/navBanner.png" alt="navBanner">
-                    <div id="sharedNav">
+            <div class="navBannerWrapper">
+                <img class="sharedNavBanner" src="/assets/navBanner.png" alt="navBanner">
+                    <div class="sharedNav">
                         <a href="/index.html">Home</a>
                         <a class="active" href="/navPages/triviaSelection.html">Trivia Selection</a>
                         <a href="/navPages/scores.html">Scores</a>
@@ -76,5 +76,19 @@
             <div class="question5ot"></div>
     </div>
 </body>
+<!-- <script>
+
+    function startButtonToggleHS() {
+        var x = document.getElementsByClassName("landingPageOT");
+        var y = 'block'
+        if (y === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        console.log('worked')
+    }
+</script> -->
+
 <script src="/script.js"> </script>
 </html>
