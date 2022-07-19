@@ -24,41 +24,22 @@
             </div>
         </header>
 
-        <div class="startingNTPage">
-            <div class="haloTitleWrapper">
-                <img class="haloWrapper" src="/assets/halo.png" alt="halo">
-                <h1 class="h1nt">New Testament Trivia</h1>
-            </div><
-            <img class="tombWrapper" src="/assets/Jesus tomb.png" alt="Jesus tomb">
-            <!-- <img class="cloudWrapper" src="/assets/clouds.png" alt="clouds"> -->
-            <div class="startButtonWrapper">
+        <div id="landingPageNT">
+            <div class="haloNewTitleWrapper">
+                <img class="NThaloWrapper" src="/assets/halo.png" alt="halo">
+                <h1 class="h1nt">New<br>Testament<br>Trivia</h1>
+            </div>
+            <img class="tombWrapper" src="/assets/JesusTomb.png" alt="Jesus Tomb">
+            <div class="NTstartButtonWrapper">
                 <button 
-                    class="startButton"
-                    onclick={buttonClick(this.value)}
-                    value="test"
+                    class="startButtonNT"
+                    onclick="NTstartButtonToggleHS()"
                 >
-                 Start Trivia
+                 Start<br>Trivia
                 </button>
             </div>
             <div class="image-blurred-edge"></div>
-
-        <!-- <div class="questionButton">
-            <button class="answerButton" 
-                onclick=
-                value="Correct"
-            >
-            </button>
-            <button class="answerButton"></button>
-            <button class="answerButton"></button>
-            <button class="answerButton"></button>
-        </div> -->
-        <!-- <div class="question1ot">
-            "test1"
-            <div class="answer11ot">answer1</div>
-            <div class="answer12ot">answer2</div>
-            <div class="answer13ot">answer3</div>
-            <div class="answer14ot">answer4</div>
-        </div> -->
+        </div>
     </div>
 </body>
 <script src="/script.js"> </script>

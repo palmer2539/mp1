@@ -5,7 +5,7 @@
 }
 
 .mainContainer{
-    background-image: linear-gradient(to bottom right, rgb(148, 50, 50), rgb(245, 194, 128));
+    background-image: linear-gradient(to bottom right, rgb(150, 0, 48), rgb(255, 215, 0));
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
@@ -16,39 +16,51 @@
     overflow: auto;
 }
 
+.titleWrapper{
+
+}
+.titleScrollWrapper{
+    /* position: relative; */
+    margin-left: 69%;
+    margin-top: 0.5%;
+    width: 30%;
+}
 .h1page0{
-    color:rgb(14, 158, 38);
-    text-align: right;
-    margin-right: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 60px;
+    color:rgb(150, 0, 48);
+    position: absolute;
+    text-align: center;
+    /* margin-right: 5%; */
+    /* margin-bottom: 10%; */
+    margin-top: -16%;
+    margin-left: 74.75%;
+    font-size: 3vmax;
 }
 
 .h2page0{
-    color: rgb(70, 143, 233);
+    color:rgb(255, 215, 0);
+    text-align: center;
+    font-size: 2vmax;
 }
 
-.h3page0{
-  text-align: center;
-  color: rgb(0, 81, 255);
-}
 
 .h1ts{
-    color:rgb(195, 67, 13);
-    text-shadow: 2px 4px 5px;
+    color:rgb(150, 0, 48);
     position: relative;
-    /* width: 55%; */
+    width: 20%;
     text-align: center;
-    margin-top: 150px;
-    margin-bottom: 0;
+    margin: 4% 0% 5% 40%;
     font-size: 60px;
-    background-color: rgba(0, 0, 0, 0.34);
+    background-color: rgba(255, 215, 0);
+    border-radius: 10px;
+    border: rgb(255,215,0);
+    border-width: 5px;
 }
 
 .h2ts{
     text-align: center;
-    color: orchid;
+    color: rgb(255, 215, 0);
+    margin-bottom: 2%;
+    font-size: 2vmax;
 }
 
 .h3ts{
@@ -67,12 +79,29 @@
 
 
 #enterButton{
-    border-width: 5px;
-    border-radius: 10%;
-    background-color:rgb(245, 194, 128) ;
-    color:rgb(158, 58, 14);
+    border-radius: 15px;
+    background-color:rgb(125, 73, 6, 0.7);
+    color:rgb(255, 215, 0);
+    border: #ee0000;
     cursor: pointer;
-    margin-left:47%;
+    margin-left:43%;
+    border-style: outset;
+    width: 13vmax;
+    height: 5vmax;
+    font-size: 2vmax;
+}
+
+#enterButton:hover{
+    border-radius: 15px;
+    background-color:rgb(245, 194, 128, 1);
+    color:#ee0000;
+    border: #ee0000;
+    cursor: pointer;
+    margin-left:43%;
+    border-style: inset;
+    width: 13vmax;
+    height: 5vmax;
+    font-size: 2vmax;
 }
 
 
@@ -81,33 +110,22 @@
 }
 
 .sharedNav{
-    /* background-color: aqua; */
-    width:400px;
-    margin-left: 55px;
-    /* margin-top: 75px; */
-    /* padding-left: 10px; */
-    /* padding-right: 10px; */
-    padding-top: 45px;
-    /* padding-bottom: 5px; */
-    /* border-radius: 5px; */
-    /* position: relative; */
+    width:550px;
+    margin-left: 3%;
+    padding-top: 2.5%;
 }
 
 .sharedNav a {
     display: inline;
-    color: #a82727;
-    margin: 0px 10px;
+    color:rgb(150, 0, 48);
+    margin: 1% 4% 1% 1%;
     text-decoration: none;
-    text-shadow: 2px 4px 5px;
-    /* align-items: center;    */
-    font-size: 25px;
+    font-size: 1.3vmax;
     position: relative;
-    /* justify-content: space-between; */
 }
 
 .sharedNav a:hover {
-text-decoration: underline;
-text-shadow: none;
+    text-shadow: 2px 4px 5px;
 }
 
 #trivia{
@@ -115,18 +133,18 @@ text-shadow: none;
 }
   
 #oldtest{
-    width: 300px;
-    border-radius: 10px;
+    width: 400px;
+    border-radius: 15px;
 }
 
 #newtest{
-    width: 300px;
-    border-radius: 10px;
+    width: 400px;
+    border-radius: 15px;
 }
 
 #bible{
-    width: 300px;
-    border-radius: 10px;
+    width: 400px;
+    border-radius: 15px;
 }
 
 .h1scores{
@@ -139,11 +157,10 @@ text-shadow: none;
 }
 
 .sharedNavBanner{
-    width: 475px;
-    height: 130px;
+    width: 25%;
+    height: 12%;
     position: absolute;
-    margin: 0px;
-}
+    margin:.5% 0% 0% .5%;}
 
 .pageNavWrapper{
     position: relative;
@@ -151,21 +168,79 @@ text-shadow: none;
     margin: 0 25px;
 }
 
-.pageNavTitle{
+.pageNavTitleOT{
     position: absolute;
     bottom: 150%;
     left: 50%;
-    color: rgb(0, 255, 60);
+    top: -150%;
+    color: rgb(255, 204, 0);
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    font-size: 35px;
+}
+
+.pageNavTitleOT:hover{
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    top: -150%;
+    color: rgb(255, 204, 0);
     text-decoration: none;
     transform: translate(-50%, -50%);
     text-shadow: 2px 4px 5px;
-    /* background-color: rgba(0,0,0,0.4); */
-    width: 300px;
+    width: 400px;
+    font-size: 40px;
+}
+
+.pageNavTitleNT{
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    top:-150%;
+    color: rgb(0, 242, 255);
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    width: 400px;
     font-size: 35px;
-    /* font: bold; */
-    /* font-style: oblique; */
-    /* font-weight: 500; */
-    /* border-radius: 10px; */
+}
+
+.pageNavTitleNT:hover{
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    top: -150%;
+    color: rgb(0, 242, 255);
+    text-shadow: 2px 4px 5px;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    font-size: 40px;
+}
+
+.pageNavTitleHB{
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    top: -150%;
+    color: rgb(255, 0, 25);
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    font-size: 35px;
+}
+
+.pageNavTitleHB:hover{
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    top: -150%;
+    color: rgb(255, 0, 25);
+    text-shadow: 2px 4px 5px;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    font-size: 40px;
 }
 
 /* .answerButton{
@@ -175,28 +250,23 @@ text-shadow: none;
     gap: 10px;
 } */
 
-.landingPageOT{
+#landingPageOT{
     width: 100%;
-    display:block;
-    /* margin-bottom: -25%; */
+    height: 110%;
+    overflow: hidden;
 }
 
 .cloudWrapper{
-    width: 70%;
+    width: 80%;
     height: 70%;
-    max-width: 1000px;
-    max-height: 900px;
-    margin: 10% 15%;
-    /* position: relative; */
-    /* margin-left: 18%; */
+    margin-bottom: 0px;
+    margin: 5% 0% 10% 10%;
 }
 
-.haloWrapper{
+.OThaloWrapper{
     position: absolute;
-    width: 40%;
-    /* margin-top: -100%; */
-    margin-left: 33%;
-    margin-top: 5%;
+    width: 30vmax;
+    justify-content: center;
 }
 
 .haloOldTitleWrapper{
@@ -206,93 +276,122 @@ text-shadow: none;
 .h1ot{
     text-align: center;
     justify-content: center;
-    margin: 18% 37%;
     position:absolute;
-    font-size:50px;
-    width: 29%;
+    margin: 150px 150px;
+    padding-top: 50px;
+    font-size:3.5vmax;
     line-height: 70%;
     color:#7303b9;
     text-shadow: 2px 4px 5px;
 }
 
-.startButtonWrapper{
+.haloOldTitleWrapper{
+    position: absolute;
+    margin-left: 60%;
+    /* margin-top: 10%; */
+}
+
+.OTstartButtonWrapper{
     margin-left: 35%;
-    margin-top: -30%;
+    margin-top: -25%;
+    /* overflow: visible; */
     height: 300px;
 }
 
 .startButtonOT{
     margin-left: 10%;
     width: 30%;
-    height: 20%;
-    color: gold;
-    background-color: rgba(0, 147, 180, 0.643);
-    font-size: 150%;
+    height:5vmax;
+    color: #7303b9;
+    background-color: rgba(0, 147, 180, 0.7);
+    font-size:3.5vmax;
     text-shadow: 2px 4px 5px;
-    border-radius: 10px;
-    border:none;
-    border-style:outset
+    border-radius: 15px;
+    border-style:outset;
+    border-color: #7303b9;
 }
 
 .startButtonOT:hover {
     margin-left: 10%;
     width: 30%;
-    height: 20%;
+    height: 5vmax;
     color: gold;
     background-color: rgba(0, 147, 180, 1);
-    font-size: 150%;
+    font-size:3.5vmax;
     text-shadow: none;
-    border-radius: 10px;
-    border:none;
-    border-style:outset
+    border-radius: 15px;
+    border-style:inset;
+    border-color: gold;
+    cursor:pointer;
 }
 
-/* .image-blurred-edge {
-    background-image: url('http://lorempixel.com/200/200/city/9');
-    width: 70%;
-    height: 70%;
-    max-width: 1000px;
-    max-height: 900px;
-    margin-left: 15%;
-    margin-top: -50%;
-    position: relative;
-    box-shadow: 0 0 8px 8px rgb(79, 47, 47) inset;
-} */
-
-
-.startingNTPage{
+#landingPageNT{
     width: 100%;
-    /* margin-bottom: -25%; */
+    height: 92%;
+    overflow: hidden;
 }
 
 .tombWrapper{
-    width: 70%;
-    height: 70%;
-    max-width: 1000px;
-    max-height: 900px;
-    margin: 10% 15%;
-    /* position: relative; */
-    /* margin-left: 18%; */
+    width: 45%;
+    height: 80%;
+    margin: 0% 0% 10% 25%;
 }
 
-.haloWrapper{
+
+.haloNewTitleWrapper{
     position: absolute;
-    width: 40%;
-    /* margin-top: -100%; */
-    margin-left: 33%;
-    margin-top: 5%;
-}
-
-.haloTitleWrapper{
-    margin-left: 15%;
+    margin: 3% 0% 0% 53%;
+    /* margin-top: 10%; */
 }
 
 .h1nt{
     text-align: center;
-    justify-content: center;
-    margin: 18% 37%;
     position:absolute;
-    font-size: 50px;
-    width: 29%;
-    line-height: 70%;
+    font-size: 3.5vmax;
+    line-height: 80%;
+    margin: -30% 0% 0% 31%;
+    height: 10vmax;
+    color: rgb(0, 60, 255);
+    text-shadow: 2px 4px 5px;
+}
+
+.NThaloWrapper{
+    /* position: absolute; */
+    width: 30vmax;
+    margin: -20% 0% 0% 10%;
+    /* justify-content: center; */
+}
+
+.NTstartButtonWrapper{
+    margin-left: 44%;
+    margin-top: -25%;
+    height: 300px;
+}
+
+.startButtonNT{
+    margin-left: 17%;
+    width: 7vmax;
+    height:8vmax;
+    color: rgb(0, 60, 255);
+    background-color: rgba(0, 229, 255, 0.728);
+    font-size:2vmax;
+    text-shadow: 2px 4px 5px;
+    border-radius: 15px;
+    border-style:outset;
+    border-color: rgb(0, 60, 255);
+    line-height: 120%;
+}
+
+.startButtonNT:hover {
+    margin-left: 17%;
+    width: 7vmax;
+    height:8vmax;
+    color: gold;
+    background-color: rgba(0, 229, 255, 1);
+    font-size:2vmax;
+    border-radius: 15px;
+    border-style:outset;
+    border-color: gold;
+    line-height: 120%;
+    cursor:pointer;
 }

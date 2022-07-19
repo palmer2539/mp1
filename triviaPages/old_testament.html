@@ -24,15 +24,13 @@
             </div>
         </header>
  
-        <div class="landingPageOT">
+        <div id="landingPageOT">
             <div class="haloOldTitleWrapper">
-                <img 
-                    class="haloWrapper" 
+                <img class="OThaloWrapper" 
                     src="/assets/halo.png" 
                     alt="halo"
                 >
-                <h1 
-                    class="h1ot"
+                <h1 class="h1ot"
                 >
                     Old Testament Trivia
                 </h1>
@@ -42,16 +40,17 @@
                 src="/assets/clouds.png" 
                 alt="clouds"
             >
+            <div class="OTstartButtonWrapper">
+                <button 
+                    class="startButtonOT" 
+                    onclick="OTstartButtonToggleHS()"
+                >
+                    Start Trivia
+                </button>
+            </div>
             <div class="image-blurred-edge"></div>
         </div>
-        <div class="startButtonWrapper">
-            <button 
-                class="startButtonOT" 
-                onclick="startButtonToggleHS()"
-            >
-             Start Trivia
-            </button>
-        </div>
+        
         <!-- <div class="questionButton">
                 <button class="answerButton" 
                     onclick=
@@ -76,19 +75,5 @@
             <div class="question5ot"></div>
     </div>
 </body>
-<!-- <script>
-
-    function startButtonToggleHS() {
-        var x = document.getElementsByClassName("landingPageOT");
-        var y = 'block'
-        if (y === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-        console.log('worked')
-    }
-</script> -->
-
 <script src="/script.js"> </script>
 </html>
