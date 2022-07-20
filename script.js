@@ -50,16 +50,16 @@ const loadingDelayEnterButton = document.getElementById('enterButton')
 
 setTimeout(() => {
     loadingDelay0.style.visibility = 'visible';
-}, 1000);
+}, 1250);
 
 setTimeout(() => {
     loadingDelay1.style.visibility = 'visible';
-}, 2500);
+}, 1250);
 
 setTimeout(() => {
     loadingDelay2.style.visibility = 'visible';
-}, 4000);
+}, 1250);
 
 setTimeout(() => {
     loadingDelayEnterButton.style.visibility = 'visible';
-}, 5500);
+}, 1250);

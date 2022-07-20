@@ -42,13 +42,14 @@
     width: 80vmax;
     height: 50vmax;
     animation-name: stone;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-timing-function: linear;
 }
-
 @keyframes stone {
-    0%{left:100px; top:200px}
-    100%{left:500px; top:400;}
+    0%{top:-1200px;}
+    75%{top:0px;}
+    90%{top:-20px;}
+    100%{top:0px;}
     
 }
 
@@ -68,6 +69,14 @@
     text-shadow: 2px 4px 8px;
     line-height: 90%;
     visibility: hidden;
+    animation-name: page0line0;
+    animation-duration: 2500ms;
+}
+@keyframes page0line0 {
+    0% {opacity: 0;}
+    50% {opacity: .0;}
+    75% {opacity: .5;}
+    100% {opacity: 1;}
 }
 
 #h2page01{
@@ -80,6 +89,14 @@
     text-shadow: 2px 4px 8px;
     line-height: 90%;
     visibility: hidden;
+    animation-name: page0line1;
+    animation-duration: 4000ms;
+}
+@keyframes page0line1 {
+    0% {opacity: 0;}
+    50% {opacity: .0;}
+    75% {opacity: .5;}
+    100% {opacity: 1;}
 }
 
 #h2page02{
@@ -90,6 +107,14 @@
     font-size: 2vmax;
     text-shadow: 2px 4px 8px;
     visibility: hidden;
+    animation-name: page0line2;
+    animation-duration: 6000ms;
+}
+@keyframes page0line2 {
+    0% {opacity: 0;}
+    50% {opacity: .0;}
+    75% {opacity: .7;}
+    100% {opacity: 1;}
 }
 
 #enterButton{
@@ -107,8 +132,15 @@
     font-size: 2vmax;
     visibility: hidden;
     text-shadow: 2px 4px 8px;
+    animation-name: enterButtonAni;
+    animation-duration: 6000ms;
 }
-
+@keyframes enterButtonAni {
+    0% {opacity: 0;}
+    50% {opacity: .0;}
+    75% {opacity: .7;}
+    100% {opacity: 1;}
+}
 #enterButton:hover{
     border-radius: 15px;
     background-color:rgb(245, 194, 128, 1);
