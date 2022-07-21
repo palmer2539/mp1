@@ -347,23 +347,19 @@
     overflow: hidden;
     display: block;
 }
-
 .cloudWrapper{
     width: 80%;
     height: 70%;
     margin-bottom: 0px;
     margin: 5% 0% 10% 10%;
 }
-
 .OThaloWrapper{
     position: absolute;
     width: 30vmax;
     justify-content: center;
 }
-
 .haloOldTitleWrapper{
 }
-
 .h1ot{
     text-align: center;
     justify-content: center;
@@ -375,20 +371,17 @@
     color:#7303b9;
     text-shadow: 2px 4px 8px;
 }
-
 .haloOldTitleWrapper{
     position: absolute;
     margin-left: 60%;
     /* margin-top: 10%; */
 }
-
 .OTstartButtonWrapper{
     margin-left: 35%;
     margin-top: -25%;
     /* overflow: visible; */
     height: 300px;
 }
-
 .startButtonOT{
     margin-left: 10%;
     width: 30%;
@@ -402,7 +395,6 @@
     border-color: #7303b9;
     border-width: 5px;
 }
-
 .startButtonOT:hover {
     margin-left: 10%;
     width: 30%;
@@ -417,13 +409,11 @@
     cursor:pointer;
     border-width: 5px;
 }
-
 /* OT question 1 */
 #question1OT{
     display: none;
     width: 40%;
     margin:20% 30%;
-    border: rgb(170, 0, 0);
     border-width: 10px;
     text-align: center;
 }
@@ -433,15 +423,13 @@
     grid-template-columns: repeat(2, auto);
     margin: 3% 3% 3% 3%;
 }
-
 .questionScrollWrapper{
     position: absolute;
     margin: -10% 10% 10% -28%;
     width: 56vmax;
     height: 45vmax;
 }
-
-.h1otq{
+.h2otq{
     position: relative;
     color: rgb(150, 0, 48);
     font-size: 3vmax;
@@ -449,24 +437,21 @@
     margin-bottom: -5%;
     text-shadow: 2px 4px 8px;
 }
-
 .qa{
     margin: 5% 0% 0% 0%;
-    color: rgb(75, 0, 180);
+    color: rgb(0, 0, 0);
     background-color: rgb(0, 0, 0,0);
     border: none;
     font-size: 3vmax;
     text-shadow: 2px 4px 8px;
 }
-
 .qa:hover{
-    color: rgb(150, 0, 48);
+    color: rgb(75, 0, 180);
     background-color: rgb(0, 0, 0,0);
     border: none;
     text-decoration: underline;
     text-shadow: 2px 4px 8px;
 }
-
 #nextButton1OT{
     position: relative;
     display: none;
@@ -477,7 +462,6 @@
     border: none;
     text-shadow: 2px 4px 8px;
 }
-
 #nextButton1OT:hover{
     position: relative;
     display: none;
@@ -489,60 +473,342 @@
     text-shadow: 2px 4px 8px;
     text-decoration: underline;
 }
-
 /* OT question 2 */
 #question2OT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion2OT{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2otq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 3vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton2OT{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
 }
-
+#nextButton2OT:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
 /* OT question 3 */
 #question3OT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion3OT{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2otq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 3vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton3OT{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
 }
-
+#nextButton3OT:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
 /* OT question 4 */
 #question4OT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion4OT{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2otq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 3vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton4OT{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
 }
-
+#nextButton4OT:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
 /* OT question 5 */
 #question5OT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion5OT{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2otq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton5OT{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
 }
-
+#nextButton5OT:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
 /* final screen */
 #finalScreenOT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2otq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.finalScreenButtonsWrapper{
+    position: relative;
+    margin-top: 15%;
+}
+.restartButtonOT{
+    margin-right: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+}
+.restartButtonOT:hover{
+    margin-right: 10%;
+    color: rgb(150, 0, 48);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
+.finalScreenTSButton{
+    margin-right: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+    line-height: 90%;
+}
+.finalScreenTSButton:hover{
+    margin-right: 10%;
+    color: rgb(150, 0, 48);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+    line-height: 90%;
+    text-decoration: underline;
+}
+.finalScreenScoresButon{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+}
+.finalScreenScoresButon:hover{
+    color: rgb(150, 0, 48);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
 }
 /* //////////////////////////////////////////////// */
 
@@ -557,20 +823,16 @@
     height: 92%;
     overflow: hidden;
 }
-
 .tombWrapper{
     width: 45%;
     height: 80%;
     margin: 5% 0% 10% 25%;
 }
-
-
 .haloNewTitleWrapper{
     position: absolute;
     margin: 3% 0% 0% 53%;
     /* margin-top: 10%; */
 }
-
 .h1nt{
     text-align: center;
     position:absolute;
@@ -581,20 +843,17 @@
     color: rgb(0, 60, 255);
     text-shadow: 2px 4px 8px;
 }
-
 .NThaloWrapper{
     /* position: absolute; */
     width: 30vmax;
     margin: -20% 0% 0% 10%;
     /* justify-content: center; */
 }
-
 .NTstartButtonWrapper{
     margin-left: 44%;
     margin-top: -25%;
     height: 300px;
 }
-
 .startButtonNT{
     margin-left: 17%;
     width: 7vmax;
@@ -609,7 +868,6 @@
     line-height: 120%;
     border-width: 5px;
 }
-
 .startButtonNT:hover {
     margin-left: 17%;
     width: 7vmax;
@@ -625,72 +883,411 @@
     cursor:pointer;
     border-width: 5px;
 }
-
 /* NT question 1 */
 #question1NT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion1NT{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2ntq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton1NT{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+}
+#nextButton1NT:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
 }
 
-/* OT question 2 */
+/* NT question 2 */
 #question2NT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion2NT{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2ntq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton2NT{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+}
+#nextButton2NT:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
 }
 
-/* OT question 3 */
+/* NT question 3 */
 #question3NT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion3NT{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2ntq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton3NT{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+}
+#nextButton3NT:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
 }
 
-/* OT question 4 */
+/* NT question 4 */
 #question4NT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion4NT{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2ntq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa4nt{
+    margin: 5% 5% 0% 5%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+    line-height: 90%;
+}
+.qa4nt:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton4NT{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
 }
-
-/* OT question 5 */
+#nextButton4NT:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
+/* NT question 5 */
 #question5NT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion5NT{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2ntq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton5NT{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+}
+#nextButton5NT:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
 }
 
 /* final screen */
 #finalScreenNT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2ntq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.finalScreenButtonsWrapper{
+    position: relative;
+    margin-top: 15%;
+}
+.restartButtonNT{
+    margin-right: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+}
+.restartButtonNT:hover{
+    margin-right: 10%;
+    color: rgb(150, 0, 48);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
+.finalScreenTSButton{
+    margin-right: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+    line-height: 90%;
+}
+.finalScreenTSButton:hover{
+    margin-right: 10%;
+    color: rgb(150, 0, 48);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+    line-height: 90%;
+    text-decoration: underline;
+}
+.finalScreenScoresButon{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+}
+.finalScreenScoresButon:hover{
+    color: rgb(150, 0, 48);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
 }
 /* //////////////////////////////////////////////// */
 
@@ -764,71 +1361,407 @@
     text-shadow: 2px 4px 8px;
 }
 
-/* OT question 1 */
+/* HB question 1 */
 #question1HB{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion1HB{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2hbq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton1HB{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
 }
-
-/* OT question 2 */
+#nextButton1HB:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
+/* HB question 2 */
 #question2HB{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion2HB{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2hbq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton2HB{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
 }
-
-/* OT question 3 */
+#nextButton2HB:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
+/* HB question 3 */
 #question3HB{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion3HB{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2hbq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton3HB{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+}
+#nextButton3HB:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
 }
 
-/* OT question 4 */
+/* HB question 4 */
 #question4HB{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion4HB{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2hbq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton4HB{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
 }
-
-/* OT question 5 */
+#nextButton4HB:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
+/* HB question 5 */
 #question5HB{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.answersQuestion5HB{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2hbq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+}
+.qa:hover{
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
 }
 #nextButton5HB{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
 }
-
+#nextButton5HB:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
 /* final screen */
 #finalScreenHB{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border-width: 10px;
+    text-align: center;
+}
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+.h2hbq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+.finalScreenButtonsWrapper{
+    position: relative;
+    margin-top: 15%;
+}
+.restartButtonHB{
+    margin-right: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+}
+.restartButtonHB:hover{
+    margin-right: 10%;
+    color: rgb(150, 0, 48);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+}
+.finalScreenTSButton{
+    margin-right: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+    line-height: 90%;
+}
+.finalScreenTSButton:hover{
+    margin-right: 10%;
+    color: rgb(150, 0, 48);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    text-shadow: 2px 4px 8px;
+    line-height: 90%;
+    text-decoration: underline;
+}
+.finalScreenScoresButon{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+}
+.finalScreenScoresButon:hover{
+    color: rgb(150, 0, 48);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 2.5vmax;
+    line-height: 90%;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
 }
 /* //////////////////////////////////////////////// */
 

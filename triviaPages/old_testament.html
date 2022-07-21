@@ -32,7 +32,7 @@
         </div>
         <div id="question1OT">
             <img class="questionScrollWrapper" src="/assets/questionScroll.png" alt="">
-            <h2 class="h1otq">What was Abraham's original name?</h2>
+            <h2 class="h2otq">What was Abraham's original name?</h2>
             <div class="answersQuestion1OT">
                 <button class="qa" onclick="showNextButton1OT()">Abar</button>
                 <button class="qa" onclick="showNextButton1OT()">Abram</button>
@@ -42,7 +42,8 @@
             <button id="nextButton1OT" onclick="hideNextButton1OT()">Next Button</button>
         </div>
         <div id="question2OT">
-            <h2>What was Noah tasked with building?</h2>
+            <img class="questionScrollWrapper" src="/assets/questionScroll.png" alt="">
+            <h2 class="h2otq">What was Noah tasked with building?</h2>
             <div class="answersQuestion2OT">
                 <button class="qa" onclick="showNextButton2OT()">Tower</button>
                 <button class="qa" onclick="showNextButton2OT()">Altar</button>
@@ -52,7 +53,8 @@
             <button id="nextButton2OT" onclick="hideNextButton2OT()">Next Button</button>
         </div>
         <div id="question3OT">
-            <h2>What fruit did Eve tell Adam to eat?</h2>
+            <img class="questionScrollWrapper" src="/assets/questionScroll.png" alt="">
+            <h2 class="h2otq">What fruit did Eve tell Adam to eat?</h2>
             <div class="answersQuestion3OT">
                 <button class="qa" onclick="showNextButton3OT()">Passionfruit</button>
                 <button class="qa" onclick="showNextButton3OT()">Mandarin</button>
@@ -62,7 +64,8 @@
             <button id="nextButton3OT" onclick="hideNextButton3OT()">Next Button</button>
         </div>
         <div id="question4OT">
-            <h2>How many tribes of Israel are there?</h2>
+            <img class="questionScrollWrapper" src="/assets/questionScroll.png" alt="">
+            <h2 class="h2otq">How many tribes of Israel are there?</h2>
             <div class="answersQuestion4OT">
                 <button class="qa" onclick="showNextButton4OT()">4</button>
                 <button class="qa" onclick="showNextButton4OT()">9</button>
@@ -72,7 +75,8 @@
             <button id="nextButton4OT" onclick="hideNextButton4OT()">Next Button</button>
         </div>
         <div id="question5OT">
-            <h2>With what did David defeat Goliath?</h2>
+            <img class="questionScrollWrapper" src="/assets/questionScroll.png" alt="">
+            <h2 class="h2otq">With what did David defeat Goliath?</h2>
             <div class="answersQuestion5OT">
                 <button class="qa" onclick="showNextButton5OT()">Stone and Sling</button>
                 <button class="qa" onclick="showNextButton5OT()">Broadsword</button>
@@ -82,10 +86,13 @@
             <button id="nextButton5OT" onclick="hideNextButton5OT()">Final Screen</button>
         </div>
         <div id="finalScreenOT">
-            <h1>final screen place holder</h1>
-            <button class="restartButtonOT" onclick="hideFinalScreenOT()">Start Over</button>
-            <button onclick="window.location.href = '/navPages/triviaSelection.html';">return<br>to<br>Trivia Selection</button>
-            <button onclick="window.location.href = '/navPages/scores.html';">Check Scores</button>
+            <img class="questionScrollWrapper" src="/assets/questionScroll.png" alt="">
+            <h2 class="h2otq">Fin!<br>What would you like to do?</h2>
+            <div class="finalScreenButtonsWrapper">
+                <button class="restartButtonOT" onclick="hideFinalScreenOT()">Start<br>Over</button>
+                <button class="finalScreenTSButton" onclick="window.location.href = '/navPages/triviaSelection.html';">return<br>to<br>Trivia<br>Selection</button>
+                <button class="finalScreenScoresButon" onclick="window.location.href = '/navPages/scores.html';">Check<br>Scores</button>
+            </div>
         </div>
     </div>
 </body>

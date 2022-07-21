@@ -3,8 +3,8 @@ console.log('powered on')
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Hides Old Testament landing page
 function OTstartButtonHideHS() {
-    var x = document.getElementById("landingPageOT");
-    var y = document.getElementById("question1OT");
+    let x = document.getElementById("landingPageOT");
+    let y = document.getElementById("question1OT");
     if (x === "none", y ==="block") {
         x.style.display = "block";
         y.style.display = "none";
@@ -18,37 +18,37 @@ function OTstartButtonHideHS() {
 ////////////////////////////////////
 //On button click, shows 'next button 1'
 function showNextButton1OT() {
-    var x = document.getElementById("nextButton1OT");
+    let x = document.getElementById("nextButton1OT");
     x.style.display = "block";
 }
 //On button click, shows 'next button 2'
 function showNextButton2OT() {
-    var x = document.getElementById("nextButton2OT");
+    let x = document.getElementById("nextButton2OT");
     x.style.display = "block";
 }
 //On button click, shows 'next button 3'
 function showNextButton3OT() {
-    var x = document.getElementById("nextButton3OT");
+    let x = document.getElementById("nextButton3OT");
     x.style.display = "block";
 }
 //On button click, shows 'next button 4'
 function showNextButton4OT() {
-    var x = document.getElementById("nextButton4OT");
+    let x = document.getElementById("nextButton4OT");
     x.style.display = "block";
 }
 //On button click, shows 'next button 5'
 function showNextButton5OT() {
-    var x = document.getElementById("nextButton5OT");
+    let x = document.getElementById("nextButton5OT");
     x.style.display = "block";
 }
 ////////////////////////////////////
 ////////////////////////////////////
 //hides next button, hides question 1, shows question 2
 function hideNextButton1OT() {
-    var x = document.getElementById("nextButton1OT");
+    let x = document.getElementById("nextButton1OT");
     x.style.display = "none";
-    var y = document.getElementById("question1OT");
-    var z = document.getElementById("question2OT");
+    let y = document.getElementById("question1OT");
+    let z = document.getElementById("question2OT");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -61,10 +61,10 @@ function hideNextButton1OT() {
 
 //hides next button, hides question 2, shows question 3
 function hideNextButton2OT() {
-    var x = document.getElementById("nextButton2OT");
+    let x = document.getElementById("nextButton2OT");
     x.style.display = "none";
-    var y = document.getElementById("question2OT");
-    var z = document.getElementById("question3OT");
+    let y = document.getElementById("question2OT");
+    let z = document.getElementById("question3OT");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -77,10 +77,10 @@ function hideNextButton2OT() {
 
 //hides next button, hides question 3, shows question 4
 function hideNextButton3OT() {
-    var x = document.getElementById("nextButton3OT");
+    let x = document.getElementById("nextButton3OT");
     x.style.display = "none";
-    var y = document.getElementById("question3OT");
-    var z = document.getElementById("question4OT");
+    let y = document.getElementById("question3OT");
+    let z = document.getElementById("question4OT");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -93,10 +93,10 @@ function hideNextButton3OT() {
 
 //hides next button, hides question 4, shows question 5
 function hideNextButton4OT() {
-    var x = document.getElementById("nextButton4OT");
+    let x = document.getElementById("nextButton4OT");
     x.style.display = "none";
-    var y = document.getElementById("question4OT");
-    var z = document.getElementById("question5OT");
+    let y = document.getElementById("question4OT");
+    let z = document.getElementById("question5OT");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -109,10 +109,10 @@ function hideNextButton4OT() {
 
 //hides next button, hides question 5, shows final screen
 function hideNextButton5OT() {
-    var x = document.getElementById("nextButton5OT");
+    let x = document.getElementById("nextButton5OT");
     x.style.display = "none";
-    var y = document.getElementById("question5OT");
-    var z = document.getElementById("finalScreenOT");
+    let y = document.getElementById("question5OT");
+    let z = document.getElementById("finalScreenOT");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -125,8 +125,8 @@ function hideNextButton5OT() {
 
 //Hides final screen and shows landing page
 function hideFinalScreenOT() {
-    var x = document.getElementById("finalScreenOT");
-    var y = document.getElementById("landingPageOT");
+    let x = document.getElementById("finalScreenOT");
+    let y = document.getElementById("landingPageOT");
     if (x === "none", y ==="block") {
         x.style.display = "block";
         y.style.display = "none";
@@ -140,8 +140,8 @@ function hideFinalScreenOT() {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Hides New Testament landing page
 function NTstartButtonHideHS() {
-    var x = document.getElementById("landingPageNT");
-    var y = document.getElementById("question1NT");
+    let x = document.getElementById("landingPageNT");
+    let y = document.getElementById("question1NT");
     if (x === "none", y ==="block") {
         x.style.display = "block";
         y.style.display = "none";
@@ -155,37 +155,37 @@ function NTstartButtonHideHS() {
 ////////////////////////////////////
 //On button click, shows 'next button 1'
 function showNextButton1NT() {
-    var x = document.getElementById("nextButton1NT");
+    let x = document.getElementById("nextButton1NT");
     x.style.display = "block";
 }
 //On button click, shows 'next button 2'
 function showNextButton2NT() {
-    var x = document.getElementById("nextButton2NT");
+    let x = document.getElementById("nextButton2NT");
     x.style.display = "block";
 }
 //On button click, shows 'next button 3'
 function showNextButton3NT() {
-    var x = document.getElementById("nextButton3NT");
+    let x = document.getElementById("nextButton3NT");
     x.style.display = "block";
 }
 //On button click, shows 'next button 4'
 function showNextButton4NT() {
-    var x = document.getElementById("nextButton4NT");
+    let x = document.getElementById("nextButton4NT");
     x.style.display = "block";
 }
 //On button click, shows 'next button 5'
 function showNextButton5NT() {
-    var x = document.getElementById("nextButton5NT");
+    let x = document.getElementById("nextButton5NT");
     x.style.display = "block";
 }
 ////////////////////////////////////
 ////////////////////////////////////
 //hides next button, hides question 1, shows question 2
 function hideNextButton1NT() {
-    var x = document.getElementById("nextButton1NT");
+    let x = document.getElementById("nextButton1NT");
     x.style.display = "none";
-    var y = document.getElementById("question1NT");
-    var z = document.getElementById("question2NT");
+    let y = document.getElementById("question1NT");
+    let z = document.getElementById("question2NT");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -198,10 +198,10 @@ function hideNextButton1NT() {
 
 //hides next button, hides question 2, shows question 3
 function hideNextButton2NT() {
-    var x = document.getElementById("nextButton2NT");
+    let x = document.getElementById("nextButton2NT");
     x.style.display = "none";
-    var y = document.getElementById("question2NT");
-    var z = document.getElementById("question3NT");
+    let y = document.getElementById("question2NT");
+    let z = document.getElementById("question3NT");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -214,10 +214,10 @@ function hideNextButton2NT() {
 
 //hides next button, hides question 3, shows question 4
 function hideNextButton3NT() {
-    var x = document.getElementById("nextButton3NT");
+    let x = document.getElementById("nextButton3NT");
     x.style.display = "none";
-    var y = document.getElementById("question3NT");
-    var z = document.getElementById("question4NT");
+    let y = document.getElementById("question3NT");
+    let z = document.getElementById("question4NT");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -230,10 +230,10 @@ function hideNextButton3NT() {
 
 //hides next button, hides question 4, shows question 5
 function hideNextButton4NT() {
-    var x = document.getElementById("nextButton4NT");
+    let x = document.getElementById("nextButton4NT");
     x.style.display = "none";
-    var y = document.getElementById("question4NT");
-    var z = document.getElementById("question5NT");
+    let y = document.getElementById("question4NT");
+    let z = document.getElementById("question5NT");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -246,10 +246,10 @@ function hideNextButton4NT() {
 
 //hides next button, hides question 5, shows final screen
 function hideNextButton5NT() {
-    var x = document.getElementById("nextButton5NT");
+    let x = document.getElementById("nextButton5NT");
     x.style.display = "none";
-    var y = document.getElementById("question5NT");
-    var z = document.getElementById("finalScreenNT");
+    let y = document.getElementById("question5NT");
+    let z = document.getElementById("finalScreenNT");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -262,8 +262,8 @@ function hideNextButton5NT() {
 
 //Hides final screen and shows landing page
 function hideFinalScreenNT() {
-    var x = document.getElementById("finalScreenNT");
-    var y = document.getElementById("landingPageNT");
+    let x = document.getElementById("finalScreenNT");
+    let y = document.getElementById("landingPageNT");
     if (x === "none", y ==="block") {
         x.style.display = "block";
         y.style.display = "none";
@@ -277,8 +277,8 @@ function hideFinalScreenNT() {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Hides Bible History landing page
 function HBstartButtonHideHS() {
-    var x = document.getElementById("landingPageHB");
-    var y = document.getElementById("question1HB");
+    let x = document.getElementById("landingPageHB");
+    let y = document.getElementById("question1HB");
     if (x === "none", y ==="block") {
         x.style.display = "block";
         y.style.display = "none";
@@ -292,37 +292,37 @@ function HBstartButtonHideHS() {
 ////////////////////////////////////
 //On button click, shows 'next button 1'
 function showNextButton1HB() {
-    var x = document.getElementById("nextButton1HB");
+    let x = document.getElementById("nextButton1HB");
     x.style.display = "block";
 }
 //On button click, shows 'next button 2'
 function showNextButton2HB() {
-    var x = document.getElementById("nextButton2HB");
+    let x = document.getElementById("nextButton2HB");
     x.style.display = "block";
 }
 //On button click, shows 'next button 3'
 function showNextButton3HB() {
-    var x = document.getElementById("nextButton3HB");
+    let x = document.getElementById("nextButton3HB");
     x.style.display = "block";
 }
 //On button click, shows 'next button 4'
 function showNextButton4HB() {
-    var x = document.getElementById("nextButton4HB");
+    let x = document.getElementById("nextButton4HB");
     x.style.display = "block";
 }
 //On button click, shows 'next button 5'
 function showNextButton5HB() {
-    var x = document.getElementById("nextButton5HB");
+    let x = document.getElementById("nextButton5HB");
     x.style.display = "block";
 }
 ////////////////////////////////////
 ////////////////////////////////////
 //hides next button, hides question 1, shows question 2
 function hideNextButton1HB() {
-    var x = document.getElementById("nextButton1HB");
+    let x = document.getElementById("nextButton1HB");
     x.style.display = "none";
-    var y = document.getElementById("question1HB");
-    var z = document.getElementById("question2HB");
+    let y = document.getElementById("question1HB");
+    let z = document.getElementById("question2HB");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -335,10 +335,10 @@ function hideNextButton1HB() {
 
 //hides next button, hides question 2, shows question 3
 function hideNextButton2HB() {
-    var x = document.getElementById("nextButton2HB");
+    let x = document.getElementById("nextButton2HB");
     x.style.display = "none";
-    var y = document.getElementById("question2HB");
-    var z = document.getElementById("question3HB");
+    let y = document.getElementById("question2HB");
+    let z = document.getElementById("question3HB");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -351,10 +351,10 @@ function hideNextButton2HB() {
 
 //hides next button, hides question 3, shows question 4
 function hideNextButton3HB() {
-    var x = document.getElementById("nextButton3HB");
+    let x = document.getElementById("nextButton3HB");
     x.style.display = "none";
-    var y = document.getElementById("question3HB");
-    var z = document.getElementById("question4HB");
+    let y = document.getElementById("question3HB");
+    let z = document.getElementById("question4HB");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -367,10 +367,10 @@ function hideNextButton3HB() {
 
 //hides next button, hides question 4, shows question 5
 function hideNextButton4HB() {
-    var x = document.getElementById("nextButton4HB");
+    let x = document.getElementById("nextButton4HB");
     x.style.display = "none";
-    var y = document.getElementById("question4HB");
-    var z = document.getElementById("question5HB");
+    let y = document.getElementById("question4HB");
+    let z = document.getElementById("question5HB");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -383,10 +383,10 @@ function hideNextButton4HB() {
 
 //hides next button, hides question 5, shows final screen
 function hideNextButton5HB() {
-    var x = document.getElementById("nextButton5HB");
+    let x = document.getElementById("nextButton5HB");
     x.style.display = "none";
-    var y = document.getElementById("question5HB");
-    var z = document.getElementById("finalScreenHB");
+    let y = document.getElementById("question5HB");
+    let z = document.getElementById("finalScreenHB");
     if (y === "none", z ==="block") {
         y.style.display = "block";
         z.style.display = "none";
@@ -399,8 +399,8 @@ function hideNextButton5HB() {
 
 //Hides final screen and shows landing page
 function hideFinalScreenHB() {
-    var x = document.getElementById("finalScreenHB");
-    var y = document.getElementById("landingPageHB");
+    let x = document.getElementById("finalScreenHB");
+    let y = document.getElementById("landingPageHB");
     if (x === "none", y ==="block") {
         x.style.display = "block";
         y.style.display = "none";
