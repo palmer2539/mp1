@@ -44,8 +44,9 @@
 
 
 
-
-/* //////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////// */
 /* INDEX PAGE */
 .titleScrollWrapper{
     /* position: relative; */
@@ -61,7 +62,6 @@
     margin-left: 74.75%;
     font-size: 3vmax;
     text-shadow: 2px 4px 8px;
-
 }
 
 .indexStone{
@@ -78,7 +78,6 @@
     75%{top:0px;}
     90%{top:-20px;}
     100%{top:0px;}
-    
 }
 
 .indexH2{
@@ -186,7 +185,9 @@
 
 
 
-/* //////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////// */
 /* TRIVIA SELECTION PAGE */
 .TStitleScrollWrapper{
     width: 100%;
@@ -336,12 +337,15 @@
 
 
 
-/* //////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////// */
 /* OLD TESTAMENT PAGE */
 #landingPageOT{
     width: 100%;
     height: 110%;
     overflow: hidden;
+    display: block;
 }
 
 .cloudWrapper{
@@ -417,13 +421,73 @@
 /* OT question 1 */
 #question1OT{
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    width: 40%;
+    margin:20% 30%;
+    border: rgb(170, 0, 0);
+    border-width: 10px;
+    text-align: center;
 }
+.answersQuestion1OT{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 3% 3% 3% 3%;
+}
+
+.questionScrollWrapper{
+    position: absolute;
+    margin: -10% 10% 10% -28%;
+    width: 56vmax;
+    height: 45vmax;
+}
+
+.h1otq{
+    position: relative;
+    color: rgb(150, 0, 48);
+    font-size: 3vmax;
+    margin-top: -20%;
+    margin-bottom: -5%;
+    text-shadow: 2px 4px 8px;
+}
+
+.qa{
+    margin: 5% 0% 0% 0%;
+    color: rgb(75, 0, 180);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    font-size: 3vmax;
+    text-shadow: 2px 4px 8px;
+}
+
+.qa:hover{
+    color: rgb(150, 0, 48);
+    background-color: rgb(0, 0, 0,0);
+    border: none;
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px;
+}
+
 #nextButton1OT{
+    position: relative;
     display: none;
-    size: 100%;
-    margin:25% 25% 25% 25%;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+}
+
+#nextButton1OT:hover{
+    position: relative;
+    display: none;
+    margin:0% 0% 0% 30%;
+    font-size: 2.5vmax;
+    color: rgb(150, 0, 48);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
 }
 
 /* OT question 2 */
@@ -484,7 +548,9 @@
 
 
 
-/* //////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////// */
 /* NEW TESTAMENT PAGE */
 #landingPageNT{
     width: 100%;
@@ -630,7 +696,9 @@
 
 
 
-/* //////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////// */
 /* BIBLE HISTORY PAGE */
 #landingPageHB{
     width: 100%;
@@ -697,67 +765,67 @@
 }
 
 /* OT question 1 */
-#question1OT{
+#question1HB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
 }
-#nextButton1{
+#nextButton1HB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
 }
 
 /* OT question 2 */
-#question2OT{
+#question2HB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
 }
-#nextButton2{
+#nextButton2HB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
 }
 
 /* OT question 3 */
-#question3OT{
+#question3HB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
 }
-#nextButton3{
+#nextButton3HB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
 }
 
 /* OT question 4 */
-#question4OT{
+#question4HB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
 }
-#nextButton4{
+#nextButton4HB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
 }
 
 /* OT question 5 */
-#question5OT{
+#question5HB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
 }
-#nextButton5{
+#nextButton5HB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
 }
 
 /* final screen */
-#finalScreen{
+#finalScreenHB{
     display: none;
     size: 100%;
     margin:25% 25% 25% 25%;
@@ -766,7 +834,9 @@
 
 
 
-/* //////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////// */
 /* SCORES PAGE */
 
 .h1scores{
@@ -816,4 +886,6 @@
     /* position: relative; */
     /* margin: 0% 10% 0% 10%;  */
 }
-/* //////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////// */
