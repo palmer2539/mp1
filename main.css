@@ -16,9 +16,37 @@
     overflow: auto;
 }
 
-.titleWrapper{
-
+.sharedNav{
+    width:550px;
+    margin-left: 3%;
+    padding-top: 2.5%;
 }
+
+.sharedNav a {
+    display: inline;
+    color:rgb(150, 0, 48);
+    margin: 1% 4% 1% 1%;
+    text-decoration: none;
+    font-size: 1.3vmax;
+    position: relative;
+}
+
+.sharedNav a:hover {
+    text-shadow: 2px 4px 5px;
+}
+
+.sharedNavBanner{
+    width: 25%;
+    height: 12%;
+    position: absolute;
+    margin:.5% 0% 0% .5%;
+}
+
+
+
+
+/* //////////////////////////////////////////////// */
+/* INDEX PAGE */
 .titleScrollWrapper{
     /* position: relative; */
     margin-left: 69%;
@@ -68,7 +96,7 @@
     font-size: 2vmax;
     text-shadow: 2px 4px 8px;
     line-height: 90%;
-    visibility: hidden;
+    /* visibility: hidden; */
     animation-name: page0line0;
     animation-duration: 2500ms;
 }
@@ -88,7 +116,7 @@
     font-size: 2vmax;
     text-shadow: 2px 4px 8px;
     line-height: 90%;
-    visibility: hidden;
+    /* visibility: hidden; */
     animation-name: page0line1;
     animation-duration: 4000ms;
 }
@@ -106,7 +134,7 @@
     text-align: center;
     font-size: 2vmax;
     text-shadow: 2px 4px 8px;
-    visibility: hidden;
+    /* visibility: hidden; */
     animation-name: page0line2;
     animation-duration: 6000ms;
 }
@@ -130,14 +158,14 @@
     width: 13vmax;
     height: 5vmax;
     font-size: 2vmax;
-    visibility: hidden;
+    /* visibility: hidden; */
     text-shadow: 2px 4px 8px;
     animation-name: enterButtonAni;
-    animation-duration: 6000ms;
+    animation-duration: 9000ms;
 }
 @keyframes enterButtonAni {
     0% {opacity: 0;}
-    50% {opacity: .0;}
+    50% {opacity: 0;}
     75% {opacity: .7;}
     100% {opacity: 1;}
 }
@@ -154,69 +182,21 @@
     font-size: 2vmax;
     text-shadow: none;
 }
+/* //////////////////////////////////////////////// */
 
-.h1ts{
-    color:rgb(150, 0, 48);
-    position: relative;
+
+
+/* //////////////////////////////////////////////// */
+/* TRIVIA SELECTION PAGE */
+.TStitleScrollWrapper{
     width: 100%;
-    text-align: center;
-    margin: -17% 0% -1% 0%;
-    font-size: 3.5vmax;
-    text-shadow: 2px 4px 8px;
-    /* background-color: rgba(255, 215, 0); */
-    /* border-radius: 10px; */
-    /* border: rgb(255, 215, 0); */
-    /* border-width: 5px; */
+    margin-bottom: 8%;
 }
 
-.h2ts{
-    text-align: center;
-    color: rgb(150, 0, 48);
-    margin-bottom: 5%;
-    margin-top: 0;
-    font-size: 2vmax;
-    text-shadow: 2px 4px 8px;
-    text-decoration: underline;
-    text-decoration-color: rgb(150, 0, 48);
-}
-
-.h3ts{
-    margin-top: 50px;
-    margin-bottom: 0;
-    margin-left: 38%;
-}
-    
-.h1bible{
-    text-align: center;
-}
-
-.h1nt{
-    text-align: center;
-}
-
-
-
-.navBannerWrapper{
-
-}
-
-.sharedNav{
-    width:550px;
-    margin-left: 3%;
-    padding-top: 2.5%;
-}
-
-.sharedNav a {
-    display: inline;
-    color:rgb(150, 0, 48);
-    margin: 1% 4% 1% 1%;
-    text-decoration: none;
-    font-size: 1.3vmax;
-    position: relative;
-}
-
-.sharedNav a:hover {
-    text-shadow: 2px 4px 5px;
+.TSscrollWrapper{
+    width: 70%;
+    max-height: 17vmax;
+    margin: 4% 0% 4% 16%;
 }
 
 #trivia{
@@ -237,32 +217,6 @@
     width: 24vmax;
     border-radius: 15px;
 }
-
-.h1scores{
-    text-align: center;
-}
-
-.h2scores{
-    margin-left: 250px;
-    text-align: left;
-}
-
-.TStitleScrollWrapper{
-    width: 100%;
-    margin-bottom: 8%;
-}
-
-.TSscrollWrapper{
-    width: 70%;
-    max-height: 17vmax;
-    margin: 4% 0% 4% 16%;
-}
-
-.sharedNavBanner{
-    width: 25%;
-    height: 12%;
-    position: absolute;
-    margin:.5% 0% 0% .5%;}
 
 .pageNavWrapper{
     position: relative;
@@ -352,13 +306,38 @@
     text-decoration: underline;
 }
 
-/* .answerButton{
-    margin-left: 47%;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-} */
+.h1ts{
+    color:rgb(150, 0, 48);
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: -17% 0% -1% 0%;
+    font-size: 3.5vmax;
+    text-shadow: 2px 4px 8px;
+}
 
+.h2ts{
+    text-align: center;
+    color: rgb(150, 0, 48);
+    margin-bottom: 5%;
+    margin-top: 0;
+    font-size: 2vmax;
+    text-shadow: 2px 4px 8px;
+    text-decoration: underline;
+    text-decoration-color: rgb(150, 0, 48);
+}
+
+.h3ts{
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 38%;
+}
+/* //////////////////////////////////////////////// */
+
+
+
+/* //////////////////////////////////////////////// */
+/* OLD TESTAMENT PAGE */
 #landingPageOT{
     width: 100%;
     height: 110%;
@@ -379,7 +358,6 @@
 }
 
 .haloOldTitleWrapper{
-    
 }
 
 .h1ot{
@@ -436,6 +414,78 @@
     border-width: 5px;
 }
 
+/* OT question 1 */
+#question1OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton1OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 2 */
+#question2OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton2OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 3 */
+#question3OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton3OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 4 */
+#question4OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton4OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 5 */
+#question5OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton5OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* final screen */
+#finalScreenOT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+/* //////////////////////////////////////////////// */
+
+
+
+/* //////////////////////////////////////////////// */
+/* NEW TESTAMENT PAGE */
 #landingPageNT{
     width: 100%;
     height: 92%;
@@ -510,6 +560,78 @@
     border-width: 5px;
 }
 
+/* NT question 1 */
+#question1NT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton1NT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 2 */
+#question2NT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton2NT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 3 */
+#question3NT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton3NT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 4 */
+#question4NT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton4NT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 5 */
+#question5NT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton5NT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* final screen */
+#finalScreenNT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+/* //////////////////////////////////////////////// */
+
+
+
+/* //////////////////////////////////////////////// */
+/* BIBLE HISTORY PAGE */
 #landingPageHB{
     width: 100%;
     height: 92%;
@@ -574,8 +696,87 @@
     text-shadow: 2px 4px 8px;
 }
 
-/* Scores webpage */
+/* OT question 1 */
+#question1OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton1{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
 
+/* OT question 2 */
+#question2OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton2{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 3 */
+#question3OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton3{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 4 */
+#question4OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton4{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* OT question 5 */
+#question5OT{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+#nextButton5{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+
+/* final screen */
+#finalScreen{
+    display: none;
+    size: 100%;
+    margin:25% 25% 25% 25%;
+}
+/* //////////////////////////////////////////////// */
+
+
+
+/* //////////////////////////////////////////////// */
+/* SCORES PAGE */
+
+.h1scores{
+    text-align: center;
+}
+
+.h2scores{
+    margin-left: 250px;
+    text-align: left;
+}
 .scoreWrapper{
     /* position: absolute; */
     width: 70%;
@@ -615,5 +816,4 @@
     /* position: relative; */
     /* margin: 0% 10% 0% 10%;  */
 }
-
-
+/* //////////////////////////////////////////////// */
