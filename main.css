@@ -409,6 +409,130 @@
     cursor:pointer;
     border-width: 5px;
 }
+#otqac1{
+    color: #000000;
+}
+#otqac1:hover{
+    color: #4B00B4;
+}
+#otqac2{
+    color: #000000;
+}
+#otqac2:hover{
+    color: #4B00B4;
+}
+#otqac3{
+    color: #000000;
+}
+#otqac3:hover{
+    color: #4B00B4;
+}
+#otqac4{
+    color: #000000;
+}
+#otqac4:hover{
+    color: #4B00B4;
+}
+#otqac5{
+    color: #000000;
+}
+#otqac5:hover{
+    color: #4B00B4;
+}
+
+#otqai1{
+    color: #000000;
+}
+#otqai1:hover{
+    color: #4B00B4;
+}
+#otqai2{
+    color: #000000;
+}
+#otqai2:hover{
+    color: #4B00B4;
+}
+#otqai3{
+    color: #000000;
+}
+#otqai3:hover{
+    color: #4B00B4;
+}
+#otqai4{
+    color: #000000;
+}
+#otqai4:hover{
+    color: #4B00B4;
+}
+#otqai5{
+    color: #000000;
+}
+#otqai5:hover{
+    color: #4B00B4;
+}
+#otqai6{
+    color: #000000;
+}
+#otqai6:hover{
+    color: #4B00B4;
+}
+#otqai7{
+    color: #000000;
+}
+#otqai7:hover{
+    color: #4B00B4;
+}
+#otqai8{
+    color: #000000;
+}
+#otqai8:hover{
+    color: #4B00B4;
+}
+#otqai9{
+    color: #000000;
+}
+#otqai9:hover{
+    color: #4B00B4;
+}
+#otqai10{
+    color: #000000;
+}
+#otqai10:hover{
+    color: #4B00B4;
+}
+#otqai11{
+    color: #000000;
+}
+#otqai11:hover{
+    color: #4B00B4;
+}
+#otqai12{
+    color: #000000;
+}
+#otqai12:hover{
+    color: #4B00B4;
+}
+#otqai13{
+    color: #000000;
+}
+#otqai13:hover{
+    color: #4B00B4;
+}
+#otqai14{
+    color: #000000;
+}
+#otqai14:hover{
+    color: #4B00B4;
+}
+#otqai15{
+    color: #000000;
+}
+#otqai15:hover{
+    color: #4B00B4;
+}
+
+
+
 /* OT question 1 */
 #question1OT{
     display: none;
@@ -439,14 +563,14 @@
 }
 .qa{
     margin: 5% 0% 0% 0%;
-    color: rgb(0, 0, 0);
+    color: #000000;
     background-color: rgb(0, 0, 0,0);
     border: none;
     font-size: 3vmax;
     text-shadow: 2px 4px 8px;
 }
 .qa:hover{
-    color: rgb(75, 0, 180);
+    color: #4B00B4;
     background-color: rgb(0, 0, 0,0);
     border: none;
     text-decoration: underline;
@@ -883,6 +1007,129 @@
     cursor:pointer;
     border-width: 5px;
 }
+#ntqac1{
+    color: #000000;
+}
+#ntqac1:hover{
+    color: #4B00B4;
+}
+#ntqac2{
+    color: #000000;
+}
+#ntqac2:hover{
+    color: #4B00B4;
+}
+#ntqac3{
+    color: #000000;
+}
+#ntqac3:hover{
+    color: #4B00B4;
+}
+#ntqac4{
+    color: #000000;
+}
+#ntqac4:hover{
+    color: #4B00B4;
+}
+#ntqac5{
+    color: #000000;
+}
+#ntqac5:hover{
+    color: #4B00B4;
+}
+
+#ntqai1{
+    color: #000000;
+}
+#ntqai1:hover{
+    color: #4B00B4;
+}
+#ntqai2{
+    color: #000000;
+}
+#ntqai2:hover{
+    color: #4B00B4;
+}
+#ntqai3{
+    color: #000000;
+}
+#ntqai3:hover{
+    color: #4B00B4;
+}
+#ntqai4{
+    color: #000000;
+}
+#ntqai4:hover{
+    color: #4B00B4;
+}
+#ntqai5{
+    color: #000000;
+}
+#ntqai5:hover{
+    color: #4B00B4;
+}
+#ntqai6{
+    color: #000000;
+}
+#ntqai6:hover{
+    color: #4B00B4;
+}
+#ntqai7{
+    color: #000000;
+}
+#ntqai7:hover{
+    color: #4B00B4;
+}
+#ntqai8{
+    color: #000000;
+}
+#ntqai8:hover{
+    color: #4B00B4;
+}
+#ntqai9{
+    color: #000000;
+}
+#ntqai9:hover{
+    color: #4B00B4;
+}
+#ntqai10{
+    color: #000000;
+}
+#ntqai10:hover{
+    color: #4B00B4;
+}
+#ntqai11{
+    color: #000000;
+}
+#ntqai11:hover{
+    color: #4B00B4;
+}
+#ntqai12{
+    color: #000000;
+}
+#ntqai12:hover{
+    color: #4B00B4;
+}
+#ntqai13{
+   color: #000000;
+}
+#ntqai13:hover{
+    color: #4B00B4;
+}
+#ntqai14{
+    color: #000000;
+}
+#ntqai14:hover{
+    color: #4B00B4;
+}
+#ntqai15{
+    color: #000000;
+}
+#ntqai15:hover{
+    color: #4B00B4;
+}
+
+
 /* NT question 1 */
 #question1NT{
     display: none;
@@ -1359,6 +1606,128 @@
     height: 10vmax;
     color: rgb(0, 106, 0);
     text-shadow: 2px 4px 8px;
+}
+
+#hbqac1{
+    color: #000000;
+}
+#hbqac1:hover{
+    color: #4B00B4;
+}
+#hbqac2{
+    color: #000000;
+}
+#hbqac2:hover{
+    color: #4B00B4;
+}
+#hbqac3{
+    color: #000000;
+}
+#hbqac3:hover{
+    color: #4B00B4;
+}
+#hbqac4{
+    color: #000000;
+}
+#hbqac4:hover{
+    color: #4B00B4;
+}
+#hbqac5{
+    color: #000000;
+}
+#hbqac5:hover{
+    color: #4B00B4;
+}
+
+#hbqai1{
+    color: #000000;
+}
+#hbqai1:hover{
+    color: #4B00B4;
+}
+#hbqai2{
+    color: #000000;
+}
+#hbqai2:hover{
+    color: #4B00B4;
+}
+#hbqai3{
+    color: #000000;
+}
+#hbqai3:hover{
+    color: #4B00B4;
+}
+#hbqai4{
+    color: #000000;
+}
+#hbqai4:hover{
+    color: #4B00B4;
+}
+#hbqai5{
+    color: #000000;
+}
+#hbqai5:hover{
+    color: #4B00B4;
+}
+#hbqai6{
+    color: #000000;
+}
+#hbqai6:hover{
+    color: #4B00B4;
+}
+#hbqai7{
+    color: #000000;
+}
+#hbqai7:hover{
+    color: #4B00B4;
+}
+#hbqai8{
+    color: #000000;
+}
+#hbqai8:hover{
+    color: #4B00B4;
+}
+#hbqai9{
+    color: #000000;
+}
+#hbqai9:hover{
+    color: #4B00B4;
+}
+#hbqai10{
+    color: #000000;
+}
+#hbqai10:hover{
+    color: #4B00B4;
+}
+#hbqai11{
+    color: #000000;
+}
+#hbqai11:hover{
+    color: #4B00B4;
+}
+#hbqai12{
+    color: #000000;
+}
+#hbqai12:hover{
+    color: #4B00B4;
+}
+#hbqai13{
+   color: #000000;
+}
+#hbqai13:hover{
+    color: #4B00B4;
+}
+#hbqai14{
+    color: #000000;
+}
+#hbqai14:hover{
+    color: #4B00B4;
+}
+#hbqai15{
+    color: #000000;
+}
+#hbqai15:hover{
+    color: #4B00B4;
 }
 
 /* HB question 1 */
