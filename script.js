@@ -1,4 +1,45 @@
+window.onload = (event) => {
+    console.log('page is fully loaded');
+    const otScoreTracker = localStorage.getItem('otScore');
+    if (!otScoreTracker){
+        localStorage.setItem('otScore', 0);
+        console.log('initialized otScore');
+        console.log(otScoreTracker);
+    }else{
+        const otScoreDiv = document.getElementById('otScoreTracker');
+        otScoreDiv.innerHTML = `${otScoreTracker}/5`;
+    }
+    const ntScoreTracker = localStorage.getItem('ntScore');
+    if (!ntScoreTracker){
+        localStorage.setItem('ntScore', 0);
+        console.log('initialized ntScore');
+        console.log(ntScoreTracker);
+    }
+    const hbScoreTracker = localStorage.getItem('hbScore');
+    if (!hbScoreTracker){
+        localStorage.setItem('hbScore', 0);
+        console.log('initialized hbScore');
+        console.log(hbScoreTracker);
+    }
+};
+
 console.log('powered on')
+
+function disableButtons(){
+    const buttons = document.querySelectorAll('.qa');
+    for (const button of buttons){
+        button.setAttribute('disabled', '');
+    }
+    console.log('buttons are disabled')
+}
+
+function enableButtons(){
+    const buttons = document.querySelectorAll('.qa');
+    for (const button of buttons){
+        button.removeAttribute('disabled', '');
+    }
+    console.log('buttons are enabled')
+}
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Hides Old Testament landing page
@@ -64,7 +105,17 @@ function OTstartButtonHideHS() {
 ////////////////////////////////////
 ////////////////////////////////////
 //On button click, shows 'next button 1'
-function showNextButton1OT() {
+function showNextButton1OT(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'otqac1'){
+        console.log('yes')
+        let otScore = localStorage.getItem('otScore')
+        localStorage.setItem('otScore', ++otScore);
+        console.log(otScore)
+    }
+
     let x = document.getElementById("nextButton1OT");
 
     let xc = document.getElementById("otqac1")
@@ -162,6 +213,7 @@ function showNextButton5OT() {
 ////////////////////////////////////
 //hides next button, hides question 1, shows question 2
 function hideNextButton1OT() {
+    enableButtons()
     let x = document.getElementById("nextButton1OT");
     x.style.display = "none";
     let y = document.getElementById("question1OT");
