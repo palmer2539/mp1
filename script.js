@@ -1,36 +1,38 @@
 window.onload = (event) => {
     console.log('page is fully loaded');
+
+    const otScoreTracker = localStorage.getItem('otScore');
+    if (!otScoreTracker){
+        localStorage.setItem('otScore', 0);
+        console.log('initialized otScore');
+        console.log(otScoreTracker);
+    }else{
+        const otScoreDiv = document.getElementById('otScoreTracker');
+        otScoreDiv.innerHTML = `${otScoreTracker}/5`;
+    }
+
+    const ntScoreTracker = localStorage.getItem('ntScore');
+    if (!ntScoreTracker){
+        localStorage.setItem('ntScore', 0);
+        console.log('initialized ntScore');
+        console.log(ntScoreTracker);
+    }else{
+        const ntScoreDiv = document.getElementById('ntScoreTracker');
+        ntScoreDiv.innerHTML = `${ntScoreTracker}/5`;
+    }
+
+    const hbScoreTracker = localStorage.getItem('hbScore');
+    if (!hbScoreTracker){
+        localStorage.setItem('hbScore', 0);
+        console.log('initialized hbScore');
+        console.log(hbScoreTracker);
+    }else{
+        const hbScoreDiv = document.getElementById('hbScoreTracker');
+        hbScoreDiv.innerHTML = `${hbScoreTracker}/5`;
+    }
 };
 
-const otScoreTracker = localStorage.getItem('otScore');
-if (!otScoreTracker){
-    localStorage.setItem('otScore', 0);
-    console.log('initialized otScore');
-    console.log(otScoreTracker);
-}else{
-    const otScoreDiv = document.getElementById('otScoreTracker');
-    otScoreDiv.innerHTML = `${otScoreTracker}/5`;
-}
 
-const ntScoreTracker = localStorage.getItem('ntScore');
-if (!ntScoreTracker){
-    localStorage.setItem('ntScore', 0);
-    console.log('initialized ntScore');
-    console.log(ntScoreTracker);
-}else{
-    const ntScoreDiv = document.getElementById('ntScoreTracker');
-    ntScoreDiv.innerHTML = `${ntScoreTracker}/5`;
-}
-
-const hbScoreTracker = localStorage.getItem('hbScore');
-if (!hbScoreTracker){
-    localStorage.setItem('hbScore', 0);
-    console.log('initialized hbScore');
-    console.log(hbScoreTracker);
-}else{
-    const hbScoreDiv = document.getElementById('hbScoreTracker');
-    hbScoreDiv.innerHTML = `${hbScoreTracker}/5`;
-}
 
 console.log('powered on')
 
@@ -765,7 +767,7 @@ function showNextButton2HB(event) {
     disableButtons()
     console.log(event)
 
-    if (event.target.id === 'hbqac1'){
+    if (event.target.id === 'hbqac2'){
         console.log('yes')
         let hbScore = localStorage.getItem('hbScore')
         localStorage.setItem('hbScore', ++hbScore);
@@ -792,7 +794,7 @@ function showNextButton3HB(event) {
     disableButtons()
     console.log(event)
 
-    if (event.target.id === 'hbqac1'){
+    if (event.target.id === 'hbqac3'){
         console.log('yes')
         let hbScore = localStorage.getItem('hbScore')
         localStorage.setItem('hbScore', ++hbScore);
