@@ -2189,13 +2189,33 @@
     /* margin: 0% 10% 0% 10%;  */
 }
 
-#otScoreTrcaker{
-
+#otScoreTracker{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 22% 10% 10% 10%;
+    color:rgb(150, 0, 48);
+    text-shadow: 2px 4px 8px;
+    font-size: 2vmax;
 }
 #ntScoreTracker{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 26.5% 10% 10% 10%;
+    color:rgb(150, 0, 48);
+    text-shadow: 2px 4px 8px;
+    font-size: 2vmax;
 
 }
 #hbScoreTracker{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 31% 10% 10% 10%;
+    color:rgb(150, 0, 48);
+    text-shadow: 2px 4px 8px;
+    font-size: 2vmax;
     
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

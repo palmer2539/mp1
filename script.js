@@ -1,33 +1,36 @@
 window.onload = (event) => {
     console.log('page is fully loaded');
-    const otScoreTracker = localStorage.getItem('otScore');
-    if (!otScoreTracker){
-        localStorage.setItem('otScore', 0);
-        console.log('initialized otScore');
-        console.log(otScoreTracker);
-    }else{
-        const otScoreDiv = document.getElementById('otScoreTracker');
-        otScoreDiv.innerHTML = `${otScoreTracker}/5`;
-    }
-    const ntScoreTracker = localStorage.getItem('ntScore');
-    if (!ntScoreTracker){
-        localStorage.setItem('ntScore', 0);
-        console.log('initialized ntScore');
-        console.log(ntScoreTracker);
-    }else{
-        const otScoreDiv = document.getElementById('otScoreTracker');
-        otScoreDiv.innerHTML = `${ntScoreTracker}/5`;
-    }
-    const hbScoreTracker = localStorage.getItem('hbScore');
-    if (!hbScoreTracker){
-        localStorage.setItem('hbScore', 0);
-        console.log('initialized hbScore');
-        console.log(hbScoreTracker);
-    }else{
-        const otScoreDiv = document.getElementById('otScoreTracker');
-        otScoreDiv.innerHTML = `${hbScoreTracker}/5`;
-    }
 };
+
+const otScoreTracker = localStorage.getItem('otScore');
+if (!otScoreTracker){
+    localStorage.setItem('otScore', 0);
+    console.log('initialized otScore');
+    console.log(otScoreTracker);
+}else{
+    const otScoreDiv = document.getElementById('otScoreTracker');
+    otScoreDiv.innerHTML = `${otScoreTracker}/5`;
+}
+
+const ntScoreTracker = localStorage.getItem('ntScore');
+if (!ntScoreTracker){
+    localStorage.setItem('ntScore', 0);
+    console.log('initialized ntScore');
+    console.log(ntScoreTracker);
+}else{
+    const ntScoreDiv = document.getElementById('ntScoreTracker');
+    ntScoreDiv.innerHTML = `${ntScoreTracker}/5`;
+}
+
+const hbScoreTracker = localStorage.getItem('hbScore');
+if (!hbScoreTracker){
+    localStorage.setItem('hbScore', 0);
+    console.log('initialized hbScore');
+    console.log(hbScoreTracker);
+}else{
+    const hbScoreDiv = document.getElementById('hbScoreTracker');
+    hbScoreDiv.innerHTML = `${hbScoreTracker}/5`;
+}
 
 console.log('powered on')
 
@@ -50,6 +53,7 @@ function enableButtons(){
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Hides Old Testament landing page
 function OTstartButtonHideHS() {
+    enableButtons()
     let x = document.getElementById("landingPageOT");
     let y = document.getElementById("question1OT");
 
@@ -360,6 +364,7 @@ function hideFinalScreenOT() {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Hides New Testament landing page
 function NTstartButtonHideHS() {
+    enableButtons()
     let x = document.getElementById("landingPageNT");
     let y = document.getElementById("question1NT");
     let xc1 = document.getElementById("ntqac1")
@@ -667,6 +672,7 @@ function hideFinalScreenNT() {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Hides Bible History landing page
 function HBstartButtonHideHS() {
+    enableButtons()
     let x = document.getElementById("landingPageHB");
     let y = document.getElementById("question1HB");
     let xc1 = document.getElementById("hbqac1")
