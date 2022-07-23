@@ -14,12 +14,18 @@ window.onload = (event) => {
         localStorage.setItem('ntScore', 0);
         console.log('initialized ntScore');
         console.log(ntScoreTracker);
+    }else{
+        const otScoreDiv = document.getElementById('otScoreTracker');
+        otScoreDiv.innerHTML = `${ntScoreTracker}/5`;
     }
     const hbScoreTracker = localStorage.getItem('hbScore');
     if (!hbScoreTracker){
         localStorage.setItem('hbScore', 0);
         console.log('initialized hbScore');
         console.log(hbScoreTracker);
+    }else{
+        const otScoreDiv = document.getElementById('otScoreTracker');
+        otScoreDiv.innerHTML = `${hbScoreTracker}/5`;
     }
 };
 
@@ -134,7 +140,17 @@ function showNextButton1OT(event) {
     x.style.display = "block";
 }
 //On button click, shows 'next button 2'
-function showNextButton2OT() {
+function showNextButton2OT(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'otqac2'){
+        console.log('yes')
+        let otScore = localStorage.getItem('otScore')
+        localStorage.setItem('otScore', ++otScore);
+        console.log(otScore)
+    }
+
     let x = document.getElementById("nextButton2OT");
 
     let xc = document.getElementById("otqac2")
@@ -153,7 +169,17 @@ function showNextButton2OT() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 3'
-function showNextButton3OT() {
+function showNextButton3OT(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'otqac3'){
+        console.log('yes')
+        let otScore = localStorage.getItem('otScore')
+        localStorage.setItem('otScore', ++otScore);
+        console.log(otScore)
+    }
+
     let x = document.getElementById("nextButton3OT");
 
     let xc = document.getElementById("otqac3")
@@ -172,7 +198,17 @@ function showNextButton3OT() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 4'
-function showNextButton4OT() {
+function showNextButton4OT(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'otqac4'){
+        console.log('yes')
+        let otScore = localStorage.getItem('otScore')
+        localStorage.setItem('otScore', ++otScore);
+        console.log(otScore)
+    }
+
     let x = document.getElementById("nextButton4OT");
 
     let xc = document.getElementById("otqac4")
@@ -191,7 +227,17 @@ function showNextButton4OT() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 5'
-function showNextButton5OT() {
+function showNextButton5OT(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'otqac5'){
+        console.log('yes')
+        let otScore = localStorage.getItem('otScore')
+        localStorage.setItem('otScore', ++otScore);
+        console.log(otScore)
+    }
+
     let x = document.getElementById("nextButton5OT");
 
     let xc = document.getElementById("otqac5")
@@ -230,6 +276,7 @@ function hideNextButton1OT() {
 
 //hides next button, hides question 2, shows question 3
 function hideNextButton2OT() {
+    enableButtons()
     let x = document.getElementById("nextButton2OT");
     x.style.display = "none";
     let y = document.getElementById("question2OT");
@@ -246,6 +293,7 @@ function hideNextButton2OT() {
 
 //hides next button, hides question 3, shows question 4
 function hideNextButton3OT() {
+    enableButtons()
     let x = document.getElementById("nextButton3OT");
     x.style.display = "none";
     let y = document.getElementById("question3OT");
@@ -262,6 +310,7 @@ function hideNextButton3OT() {
 
 //hides next button, hides question 4, shows question 5
 function hideNextButton4OT() {
+    enableButtons()
     let x = document.getElementById("nextButton4OT");
     x.style.display = "none";
     let y = document.getElementById("question4OT");
@@ -278,6 +327,7 @@ function hideNextButton4OT() {
 
 //hides next button, hides question 5, shows final screen
 function hideNextButton5OT() {
+    enableButtons()
     let x = document.getElementById("nextButton5OT");
     x.style.display = "none";
     let y = document.getElementById("question5OT");
@@ -294,6 +344,7 @@ function hideNextButton5OT() {
 
 //Hides final screen and shows landing page
 function hideFinalScreenOT() {
+    enableButtons()
     let x = document.getElementById("finalScreenOT");
     let y = document.getElementById("landingPageOT");
     if (x === "none", y ==="block") {
@@ -369,7 +420,17 @@ function NTstartButtonHideHS() {
 ////////////////////////////////////
 ////////////////////////////////////
 //On button click, shows 'next button 1'
-function showNextButton1NT() {
+function showNextButton1NT(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'ntqac1'){
+        console.log('yes')
+        let ntScore = localStorage.getItem('ntScore')
+        localStorage.setItem('ntScore', ++ntScore);
+        console.log(ntScore)
+    }
+
     let x = document.getElementById("nextButton1NT");
 
     let xc = document.getElementById("ntqac1")
@@ -388,7 +449,17 @@ function showNextButton1NT() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 2'
-function showNextButton2NT() {
+function showNextButton2NT(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'ntqac2'){
+        console.log('yes')
+        let ntScore = localStorage.getItem('ntScore')
+        localStorage.setItem('ntScore', ++ntScore);
+        console.log(ntScore)
+    }
+
     let x = document.getElementById("nextButton2NT");
 
     let xc = document.getElementById("ntqac2")
@@ -407,7 +478,17 @@ function showNextButton2NT() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 3'
-function showNextButton3NT() {
+function showNextButton3NT(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'ntqac3'){
+        console.log('yes')
+        let ntScore = localStorage.getItem('ntScore')
+        localStorage.setItem('ntScore', ++ntScore);
+        console.log(ntScore)
+    }
+
     let x = document.getElementById("nextButton3NT");
 
     let xc = document.getElementById("ntqac3")
@@ -426,7 +507,17 @@ function showNextButton3NT() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 4'
-function showNextButton4NT() {
+function showNextButton4NT(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'ntqac4'){
+        console.log('yes')
+        let ntScore = localStorage.getItem('ntScore')
+        localStorage.setItem('ntScore', ++ntScore);
+        console.log(ntScore)
+    }
+
     let x = document.getElementById("nextButton4NT");
 
     let xc = document.getElementById("ntqac4")
@@ -445,7 +536,17 @@ function showNextButton4NT() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 5'
-function showNextButton5NT() {
+function showNextButton5NT(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'ntqac5'){
+        console.log('yes')
+        let ntScore = localStorage.getItem('ntScore')
+        localStorage.setItem('ntScore', ++ntScore);
+        console.log(ntScore)
+    }
+
     let x = document.getElementById("nextButton5NT");
 
     let xc = document.getElementById("ntqac5")
@@ -465,6 +566,7 @@ function showNextButton5NT() {
 ////////////////////////////////////
 //hides next button, hides question 1, shows question 2
 function hideNextButton1NT() {
+    enableButtons()
     let x = document.getElementById("nextButton1NT");
     x.style.display = "none";
     let y = document.getElementById("question1NT");
@@ -481,6 +583,7 @@ function hideNextButton1NT() {
 
 //hides next button, hides question 2, shows question 3
 function hideNextButton2NT() {
+    enableButtons()
     let x = document.getElementById("nextButton2NT");
     x.style.display = "none";
     let y = document.getElementById("question2NT");
@@ -497,6 +600,7 @@ function hideNextButton2NT() {
 
 //hides next button, hides question 3, shows question 4
 function hideNextButton3NT() {
+    enableButtons()
     let x = document.getElementById("nextButton3NT");
     x.style.display = "none";
     let y = document.getElementById("question3NT");
@@ -513,6 +617,7 @@ function hideNextButton3NT() {
 
 //hides next button, hides question 4, shows question 5
 function hideNextButton4NT() {
+    enableButtons()
     let x = document.getElementById("nextButton4NT");
     x.style.display = "none";
     let y = document.getElementById("question4NT");
@@ -529,6 +634,7 @@ function hideNextButton4NT() {
 
 //hides next button, hides question 5, shows final screen
 function hideNextButton5NT() {
+    enableButtons()
     let x = document.getElementById("nextButton5NT");
     x.style.display = "none";
     let y = document.getElementById("question5NT");
@@ -545,6 +651,7 @@ function hideNextButton5NT() {
 
 //Hides final screen and shows landing page
 function hideFinalScreenNT() {
+    enableButtons()
     let x = document.getElementById("finalScreenNT");
     let y = document.getElementById("landingPageNT");
     if (x === "none", y ==="block") {
@@ -620,7 +727,17 @@ function HBstartButtonHideHS() {
 ////////////////////////////////////
 ////////////////////////////////////
 //On button click, shows 'next button 1'
-function showNextButton1HB() {
+function showNextButton1HB(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'hbqac1'){
+        console.log('yes')
+        let hbScore = localStorage.getItem('hbScore')
+        localStorage.setItem('hbScore', ++hbScore);
+        console.log(hbScore)
+    }
+
     let x = document.getElementById("nextButton1HB");
 
     let xc = document.getElementById("hbqac1")
@@ -638,7 +755,17 @@ function showNextButton1HB() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 2'
-function showNextButton2HB() {
+function showNextButton2HB(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'hbqac1'){
+        console.log('yes')
+        let hbScore = localStorage.getItem('hbScore')
+        localStorage.setItem('hbScore', ++hbScore);
+        console.log(hbScore)
+    }
+
     let x = document.getElementById("nextButton2HB");
 
     let xc = document.getElementById("hbqac2")
@@ -655,7 +782,17 @@ function showNextButton2HB() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 3'
-function showNextButton3HB() {
+function showNextButton3HB(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'hbqac1'){
+        console.log('yes')
+        let hbScore = localStorage.getItem('hbScore')
+        localStorage.setItem('hbScore', ++hbScore);
+        console.log(hbScore)
+    }
+
     let x = document.getElementById("nextButton3HB");
 
     let xc = document.getElementById("hbqac3")
@@ -672,7 +809,17 @@ function showNextButton3HB() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 4'
-function showNextButton4HB() {
+function showNextButton4HB(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'hbqac4'){
+        console.log('yes')
+        let hbScore = localStorage.getItem('hbScore')
+        localStorage.setItem('hbScore', ++hbScore);
+        console.log(hbScore)
+    }
+
     let x = document.getElementById("nextButton4HB");
 
     let xc = document.getElementById("hbqac4")
@@ -689,7 +836,17 @@ function showNextButton4HB() {
     x.style.display = "block";
 }
 //On button click, shows 'next button 5'
-function showNextButton5HB() {
+function showNextButton5HB(event) {
+    disableButtons()
+    console.log(event)
+
+    if (event.target.id === 'hbqac5'){
+        console.log('yes')
+        let hbScore = localStorage.getItem('hbScore')
+        localStorage.setItem('hbScore', ++hbScore);
+        console.log(hbScore)
+    }
+
     let x = document.getElementById("nextButton5HB");
     
     let xc = document.getElementById("hbqac5")
@@ -710,6 +867,7 @@ function showNextButton5HB() {
 ////////////////////////////////////
 //hides next button, hides question 1, shows question 2
 function hideNextButton1HB() {
+    enableButtons()
     let x = document.getElementById("nextButton1HB");
     x.style.display = "none";
     let y = document.getElementById("question1HB");
@@ -726,6 +884,7 @@ function hideNextButton1HB() {
 
 //hides next button, hides question 2, shows question 3
 function hideNextButton2HB() {
+    enableButtons()
     let x = document.getElementById("nextButton2HB");
     x.style.display = "none";
     let y = document.getElementById("question2HB");
@@ -742,6 +901,7 @@ function hideNextButton2HB() {
 
 //hides next button, hides question 3, shows question 4
 function hideNextButton3HB() {
+    enableButtons()
     let x = document.getElementById("nextButton3HB");
     x.style.display = "none";
     let y = document.getElementById("question3HB");
@@ -758,6 +918,7 @@ function hideNextButton3HB() {
 
 //hides next button, hides question 4, shows question 5
 function hideNextButton4HB() {
+    enableButtons()
     let x = document.getElementById("nextButton4HB");
     x.style.display = "none";
     let y = document.getElementById("question4HB");
@@ -774,6 +935,7 @@ function hideNextButton4HB() {
 
 //hides next button, hides question 5, shows final screen
 function hideNextButton5HB() {
+    enableButtons()
     let x = document.getElementById("nextButton5HB");
     x.style.display = "none";
     let y = document.getElementById("question5HB");
@@ -790,6 +952,7 @@ function hideNextButton5HB() {
 
 //Hides final screen and shows landing page
 function hideFinalScreenHB() {
+    enableButtons()
     let x = document.getElementById("finalScreenHB");
     let y = document.getElementById("landingPageHB");
     if (x === "none", y ==="block") {
